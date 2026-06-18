@@ -13,10 +13,7 @@ import os
 # ==========================================
 
 SAP_PATH = r"C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe"
-CONEXION_SAP = "01. EP0 [Produccion SAP Latam]"
-
-ARCHIVO_PATH = r"C:\Users\DAGARZONGO\OneDrive - Telefonica\Documents\01. Automatizaciones\PedidosLiberacion\ArchivoCargue"
-ARCHIVO_NAME = "Pedidos.xlsx"
+CONEXION_SAP = "SAP_CONNECTION"
 
 archivo_seleccionado = ""
 
@@ -385,7 +382,7 @@ def ejecutar_proceso():
 
 ventana = tk.Tk()
 
-ventana.title("Liberación Pedidos - SAP")
+ventana.title("SAP Order Release Automation")
 
 ventana.geometry("400x300")
 
